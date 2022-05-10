@@ -9,19 +9,19 @@ const TopStory = () => {
               <div className="thumb-art">
                 <a className="thumb thumb-5x3" href="">
                   <img
-                    src="https://i1-thethao.vnecdn.net/2022/05/09/linh-10-jpeg-1652030997-9078-1652031029.jpg?w=120&h=72&q=100&dpr=2&fit=crop&s=Md4RSuafBFRGemiG7b5CRA"
+                    src="https://i1-vnexpress.vnecdn.net/2022/05/10/tinso6kiemdiemtapthebctbanbith-7742-3742-1652182197.jpg?w=680&h=408&q=100&dpr=2&fit=crop&s=li4zpg6ociBShDUqCb7e3Q"
                     alt=""
                   />
                 </a>
               </div>
               <div className="content">
                 <h3 className="title-news">
-                  Công nhân bị 'treo' quyền lợi hỗ trợ ốm đau
+                  Tổng bí thư: Kiên quyết khắc phục tình trạng đầu cơ đất
                 </h3>
                 <p className="description">
-                  Hà bị khấu trừ gần 3 triệu đồng sau gần chục ngày điều trị
-                  Covid-19, không được trợ cấp do thiếu Giấy chứng nhận nghỉ
-                  việc hưởng bảo hiểm xã hội (BHXH).
+                  Tổng bí thư Nguyễn Phú Trọng yêu cầu kiên quyết khắc phục tình
+                  trạng đầu cơ, sử dụng đất không đúng mục đích, lãng phí, tham
+                  nhũng, gây bức xúc trong nhân dân.
                 </p>
                 <p className="extend-lead">
                   Khỏi Covid-19 đã hai tháng, Lê Thị Hà, công nhân ...

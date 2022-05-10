@@ -33,12 +33,54 @@ const NewsMain = () => {
             bt
           />
           <News2Row
+            title={"Vai trò của đường sắt trong chiến sự Ukraine"}
+            pic={
+              "https://i1-vnexpress.vnecdn.net/2022/05/10/2020418-lviv-train-station-mb-3839-5190-1652117048.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=fEx_ttOXyqOAFB0tJZRBPQ"
+            }
+            description={
+              "Mạng lưới đường sắt 22.000 km của Ukraine được coi là một trong những mắt xích hậu cần quan trọng nhất giúp Ukraine kháng cự lực lượng Nga. "
+            }
+            bt
+          />
+          <News2Row
             title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
             pic={
               "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
             }
             description={
               "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
+            }
+            bt
+          />
+          <News2Row
+            title={
+              "Ông Biden lo Tổng thống Putin 'không có lối thoát' ở Ukraine"
+            }
+            pic={
+              "https://i1-vnexpress.vnecdn.net/2022/05/10/329r8wr-highres-1652145427-5555-1652145889.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=Gbc9pDTBSlATuRhhdK8DkQ"
+            }
+            description={
+              "Tổng thống Mỹ Biden bày tỏ lo ngại Tổng thống Nga Putin không có lối thoát trong chiến sự Ukraine và Washington đang cố tìm cách giải quyết. "
+            }
+            bt
+          />
+          <News2Row
+            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
+            pic={
+              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
+            }
+            description={
+              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
+            }
+            bt
+          />
+          <News2Row
+            title={"Giá xăng có thể tăng mạnh"}
+            pic={
+              "https://i1-kinhdoanh.vnecdn.net/2022/05/10/cg2a9891-1652152563-1652152589-2776-1652152619.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=RNfoTKSv7FcFk4yeXNluug"
+            }
+            description={
+              "Mỗi lít xăng có thể tăng 800-1.600 đồng một lít, tùy vào việc nhà điều hành có sử dụng Quỹ bình ổn hay không. "
             }
             bt
           />
@@ -63,12 +105,12 @@ const NewsMain = () => {
             bt
           />
           <News2Row
-            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
+            title={"Philippines, Indonesia trước cơ hội tích điểm ở bảng A"}
             pic={
-              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
+              "https://i1-thethao.vnecdn.net/2022/05/10/3-7081-1652156398-1652158638-4338-1652158642.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=Qawgc59XiafoksewXpF6xQ"
             }
             description={
-              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
+              "Philippines và Indonesia nhiều khả năng giành chiến thắng khi gặp Myanmar và Timor Leste ở lượt ba bóng đá nam SEA Games 31 hôm nay 10/5. "
             }
             bt
           />
@@ -83,12 +125,12 @@ const NewsMain = () => {
             bt
           />
           <News2Row
-            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
+            title={"Cần thận trọng khi siết tín dụng bất động sản"}
             pic={
-              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
+              "https://i1-kinhdoanh.vnecdn.net/2022/05/10/e41d8b46bf224311c710150ed434d9-1769-1347-1652151635.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=aloPHeRo4evPeJuHCScYjw"
             }
             description={
-              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
+              "Chuyên gia đánh giá, kiểm soát tín dụng bất động sản cần thiết nhưng không nên quá chặt, có thể dẫn đến triệt tiêu động lực, cơ hội của thị trường."
             }
             bt
           />
@@ -103,52 +145,12 @@ const NewsMain = () => {
             bt
           />
           <News2Row
-            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
+            title={"Huế trang hoàng đón Phật đản"}
             pic={
-              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
+              "https://i1-vnexpress.vnecdn.net/2022/05/10/img-4089-jpg-1652110735-1652144275.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=CQ-xHD8Pla6RF-wtxufETA"
             }
             description={
-              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
-            }
-            bt
-          />
-          <News2Row
-            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
-            pic={
-              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
-            }
-            description={
-              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
-            }
-            bt
-          />
-          <News2Row
-            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
-            pic={
-              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
-            }
-            description={
-              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
-            }
-            bt
-          />
-          <News2Row
-            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
-            pic={
-              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
-            }
-            description={
-              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
-            }
-            bt
-          />
-          <News2Row
-            title={"Nga hủy trình diễn không quân trong Duyệt binh Chiến thắng"}
-            pic={
-              "https://i1-vnexpress.vnecdn.net/2022/05/09/556318717813726674b-1652090577-9768-1652095375.jpg?w=220&h=132&q=100&dpr=1&fit=crop&s=PiD5bjG9VtdtVXWOw_ISNw"
-            }
-            description={
-              "Duyệt binh Chiến thắng hôm nay ở Moskva diễn ra với các khối quân nhân cùng nhiều phương tiện quân sự của Nga, nhưng không có đội hình không quân biểu diễn."
+              "Nhiều chùa đang trang hoàng lồng đèn, cờ, chuẩn bị mừng đại lễ Phật đản vào ngày 15/4 âm lịch. "
             }
             bt
           />
@@ -455,20 +457,20 @@ const NewsMain = () => {
                 <span className="txt-label">Công bố hôm nay</span>
                 <span className="label-col item-nhiem">
                   2.175
-                  <div class="chart-count">
+                  <div className="chart-count">
                     <svg
-                      class="sparkline sparkline--red sparkline--filled"
+                      className="sparkline sparkline--red sparkline--filled"
                       width="50"
                       height="40"
-                      stroke-width="1"
+                      strokeWidth="1"
                     >
                       <path
-                        class="sparkline--fill"
+                        className="sparkline--fill"
                         d="M4 3 L 4 3 L 7.230769230769231 3.51 L 10.461538461538462 9.68 L 13.692307692307693 11.02 L 16.923076923076923 12.4 L 20.153846153846153 13.74 L 23.384615384615387 14.68 L 26.615384615384617 26.7 L 29.846153846153847 28.87 L 33.07692307692308 29.61 L 36.30769230769231 30.2 L 39.53846153846154 30.66 L 42.769230769230774 31.04 L 46 31.29 V 40 L 4 40 Z"
                         stroke="none"
                       ></path>
                       <path
-                        class="sparkline--line"
+                        className="sparkline--line"
                         d="M4 3 L 4 3 L 7.230769230769231 3.51 L 10.461538461538462 9.68 L 13.692307692307693 11.02 L 16.923076923076923 12.4 L 20.153846153846153 13.74 L 23.384615384615387 14.68 L 26.615384615384617 26.7 L 29.846153846153847 28.87 L 33.07692307692308 29.61 L 36.30769230769231 30.2 L 39.53846153846154 30.66 L 42.769230769230774 31.04 L 46 31.29"
                         fill="none"
                       ></path>
@@ -477,20 +479,20 @@ const NewsMain = () => {
                 </span>
                 <span className="label-col item-nang">
                   449
-                  <div class="chart-count">
+                  <div className="chart-count">
                     <svg
-                      class="sparkline sparkline--blue sparkline--filled"
+                      className="sparkline sparkline--blue sparkline--filled"
                       width="50"
                       height="40"
-                      stroke-width="1"
+                      strokeWidth="1"
                     >
                       <path
-                        class="sparkline--fill"
+                        className="sparkline--fill"
                         d="M4 3 L 4 3 L 7.230769230769231 4.81 L 10.461538461538462 6.11 L 13.692307692307693 7.6 L 16.923076923076923 8.99 L 20.153846153846153 9.92 L 23.384615384615387 11.17 L 26.615384615384617 12.15 L 29.846153846153847 13.08 L 33.07692307692308 14.1 L 36.30769230769231 14.84 L 39.53846153846154 14.84 L 42.769230769230774 14.84 L 46 15.03 V 40 L 4 40 Z"
                         stroke="none"
                       ></path>
                       <path
-                        class="sparkline--line"
+                        className="sparkline--line"
                         d="M4 3 L 4 3 L 7.230769230769231 4.81 L 10.461538461538462 6.11 L 13.692307692307693 7.6 L 16.923076923076923 8.99 L 20.153846153846153 9.92 L 23.384615384615387 11.17 L 26.615384615384617 12.15 L 29.846153846153847 13.08 L 33.07692307692308 14.1 L 36.30769230769231 14.84 L 39.53846153846154 14.84 L 42.769230769230774 14.84 L 46 15.03"
                         fill="none"
                       ></path>
@@ -499,20 +501,20 @@ const NewsMain = () => {
                 </span>
                 <span className="label-col item-tuvong">
                   1
-                  <div class="chart-count">
+                  <div className="chart-count">
                     <svg
-                      class="sparkline sparkline--orange sparkline--filled"
+                      className="sparkline sparkline--orange sparkline--filled"
                       width="50"
                       height="40"
-                      stroke-width="1"
+                      strokeWidth="1"
                     >
                       <path
-                        class="sparkline--fill"
+                        className="sparkline--fill"
                         d="M4 3 L 4 3 L 7.230769230769231 4.26 L 10.461538461538462 8.04 L 13.692307692307693 11.81 L 16.923076923076923 13.7 L 20.153846153846153 18.74 L 23.384615384615387 22.52 L 26.615384615384617 22.52 L 29.846153846153847 28.81 L 33.07692307692308 29.44 L 36.30769230769231 26.3 L 39.53846153846154 26.3 L 42.769230769230774 28.19 L 46 28.81 V 40 L 4 40 Z"
                         stroke="none"
                       ></path>
                       <path
-                        class="sparkline--line"
+                        className="sparkline--line"
                         d="M4 3 L 4 3 L 7.230769230769231 4.26 L 10.461538461538462 8.04 L 13.692307692307693 11.81 L 16.923076923076923 13.7 L 20.153846153846153 18.74 L 23.384615384615387 22.52 L 26.615384615384617 22.52 L 29.846153846153847 28.81 L 33.07692307692308 29.44 L 36.30769230769231 26.3 L 39.53846153846154 26.3 L 42.769230769230774 28.19 L 46 28.81"
                         fill="none"
                       ></path>
@@ -528,7 +530,7 @@ const NewsMain = () => {
               </div>
             </div>
             <div className="date-update">
-              <span class="time-update" id="time_update_data2">
+              <span className="time-update" id="time_update_data2">
                 Cập nhật: 18:01, 9/5
               </span>
               <a
@@ -599,51 +601,53 @@ const NewsMain = () => {
             <div className="group-cate">
               <h2 className="parent-cate">
                 <a className="inner-title" href="/">
-                  Đời sống
+                  Khoa học
                 </a>
               </h2>
-              <span className="sub-cate">Bài học sống</span>
-              <span className="sub-cate">Tổ ấm</span>
-              <span className="sub-cate">Nhà</span>
-              <span className="sub-cate">Tiêu dùng</span>
-              <span className="sub-cate">Cooking</span>
+              <span className="sub-cate">Trong nước</span>
+              <span className="sub-cate">Phát minh</span>
+              <span className="sub-cate">Ứng dụng</span>
+              <span className="sub-cate">Thế giới tự nhiên</span>
+              <span className="sub-cate">Cuộc thi Sáng kiến Khoa học</span>
             </div>
             <div className="content-box-category">
               <div className="col-thumb">
                 <News2Col
-                  title={"Chàng trai Việt vượt ải làm rể Thái Lan"}
+                  title={"Mức CO2 trong khí quyển chạm ngưỡng cao nhất lịch sử"}
                   pic={
-                    "https://i1-giadinh.vnecdn.net/2022/05/08/a2-1652005197-9327-1652020042.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=d-HYpLCMW0-nSBcB1FeFZg"
+                    "https://i1-vnexpress.vnecdn.net/2022/05/10/Daiquansat-1652160742-6388-1652161241.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=gJ92nnCpcs0Rac5iuudAYQ"
                   }
                   description={
-                    "Tiêu chuẩn kén rể của người Thái từng khiến Tuấn nản nghĩ 'hay về quê lấy vợ', nhưng tình yêu với Natthaya đã giúp anh vượt trở ngại. "
+                    "Mức CO2 trung bình trong khí quyển tháng 4 vượt 420 ppm, cho thấy hoạt động của con người đang thay đổi đáng ... "
                   }
                 />
               </div>
               <div className="col-sub">
                 <News2Col
-                  title={"Ban công giật cấp đưa ánh sáng tràn vào nhà ống"}
+                  title={"Loạt hình khắc bí ẩn 1.000 năm trong hang động"}
                   description={
-                    "Để khắc phục nhược điểm tối và bí của nhà ống, kiến trúc sư chọn giải pháp giật cấp các tầng ... "
+                    "Các nhà khảo cổ học công bố phát hiện những hình vẽ 'ma quái' trong hang động không tên thứ 19 ở bang ... "
                   }
                 />
               </div>
               <div className="sub-news-cate">
                 <div className="item-news">
                   <h3 className="title-news">
-                    <a href="/">Những sai lầm làm hỏng máy giặt lẫn quần áo</a>
-                  </h3>
-                </div>
-                <div className="item-news">
-                  <h3 className="title-news">
                     <a href="/">
-                      Cách làm trứng ngâm tương đơn giản, để được cả tuần
+                      Tàu chở hàng Thiên Châu 4 bay lên trạm Thiên Cung
                     </a>
                   </h3>
                 </div>
                 <div className="item-news">
                   <h3 className="title-news">
-                    <a href="/">4 điều cân nhắc khi mua tủ lạnh thông minh</a>
+                    <a href="/">Thiết bị biến CO2 thành oxy trên Mặt Trăng</a>
+                  </h3>
+                </div>
+                <div className="item-news">
+                  <h3 className="title-news">
+                    <a href="/">
+                      Hệ thống dẫn nước tinh vi của người Arab cổ đại
+                    </a>
                   </h3>
                 </div>
               </div>
@@ -653,51 +657,51 @@ const NewsMain = () => {
             <div className="group-cate">
               <h2 className="parent-cate">
                 <a className="inner-title" href="/">
-                  Đời sống
+                  Giáo dục
                 </a>
               </h2>
-              <span className="sub-cate">Bài học sống</span>
-              <span className="sub-cate">Tổ ấm</span>
-              <span className="sub-cate">Nhà</span>
-              <span className="sub-cate">Tiêu dùng</span>
-              <span className="sub-cate">Cooking</span>
+              <span className="sub-cate">Tin tức</span>
+              <span className="sub-cate">Tuyển sinh</span>
+              <span className="sub-cate">Chân dung</span>
+              <span className="sub-cate">Du học</span>
+              <span className="sub-cate">Giáo dục 4.0</span>
             </div>
             <div className="content-box-category">
               <div className="col-thumb">
                 <News2Col
-                  title={"Chàng trai Việt vượt ải làm rể Thái Lan"}
+                  title={"Bốn lầm tưởng về du học Australia"}
                   pic={
-                    "https://i1-giadinh.vnecdn.net/2022/05/08/a2-1652005197-9327-1652020042.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=d-HYpLCMW0-nSBcB1FeFZg"
+                    "https://i1-vnexpress.vnecdn.net/2022/05/10/a-1652157727-1833-1652157976.jpg?w=380&h=228&q=100&dpr=1&fit=crop&s=FfNePEDlKt4fGkLLwsLR3A"
                   }
                   description={
-                    "Tiêu chuẩn kén rể của người Thái từng khiến Tuấn nản nghĩ 'hay về quê lấy vợ', nhưng tình yêu với Natthaya đã giúp anh vượt trở ngại. "
+                    "Nhiều sinh viên tưởng chương trình đại học ở Australia nhẹ hơn ở Việt Nam, du học nước này dễ làm thêm kiếm tiền và có nhiều cơ hội định cư ... "
                   }
                 />
               </div>
               <div className="col-sub">
                 <News2Col
-                  title={"Ban công giật cấp đưa ánh sáng tràn vào nhà ống"}
+                  title={"Chọn trường nào nếu học Công nghệ thông tin?"}
                   description={
-                    "Để khắc phục nhược điểm tối và bí của nhà ống, kiến trúc sư chọn giải pháp giật cấp các tầng ... "
+                    "Em dự định học ngành Công nghệ thông tin tại TP HCM nhưng đang phân vân không biết nên chọn trường nào."
                   }
                 />
               </div>
               <div className="sub-news-cate">
                 <div className="item-news">
                   <h3 className="title-news">
-                    <a href="/">Những sai lầm làm hỏng máy giặt lẫn quần áo</a>
-                  </h3>
-                </div>
-                <div className="item-news">
-                  <h3 className="title-news">
                     <a href="/">
-                      Cách làm trứng ngâm tương đơn giản, để được cả tuần
+                      Thư gửi Đặng Thái Sơn đoạt giải nhất Viết thư UPU
                     </a>
                   </h3>
                 </div>
                 <div className="item-news">
                   <h3 className="title-news">
-                    <a href="/">4 điều cân nhắc khi mua tủ lạnh thông minh</a>
+                    <a href="/">Đo độ hiểu biết về tên gọi các quốc gia</a>
+                  </h3>
+                </div>
+                <div className="item-news">
+                  <h3 className="title-news">
+                    <a href="/">Đáp án bài toán bốn màu của Trung Quốc</a>
                   </h3>
                 </div>
               </div>
