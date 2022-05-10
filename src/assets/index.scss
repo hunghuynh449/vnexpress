@@ -1,0 +1,36 @@
+@import "normalize.css";
+@import "./main/main";
+@import "./header/header";
+@import "./navbar/navbar";
+@import "./topstory/topstory";
+@import "./common/common";
+@import "./newsmain/newsmain";
+@import "./footer/footer";
+
+.section {
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrap-main-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+ul,
+li {
+  list-style-type: none;
+}

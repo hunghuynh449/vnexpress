@@ -1,0 +1,94 @@
+.header {
+  width: 100%;
+  padding: 8.5px 0;
+  border-bottom: 1px solid #e5e5e5;
+  .container {
+    width: 100%;
+    max-width: 1130px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .left {
+      display: flex;
+      .logo {
+        border: 0;
+        font-size: 0;
+        line-height: 0;
+        max-width: 100%;
+      }
+      .time-now {
+        font-size: 14px;
+        line-height: 32px;
+        color: #757575;
+        position: relative;
+        margin-left: 20px;
+        padding-left: 15px;
+        float: left;
+        &::before {
+          content: "";
+          width: 1px;
+          height: 26px;
+          background: #e5e5e5;
+          position: absolute;
+          left: 0;
+          top: 2px;
+        }
+      }
+    }
+    .right {
+      display: flex;
+      .new {
+        height: 32px;
+        line-height: 30px;
+        padding: 0 10px;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #757575;
+        span:first-child {
+          margin-right: 2px;
+        }
+      }
+      .international {
+        margin-left: 15px;
+        height: 32px;
+        line-height: 30px;
+        padding: 0 10px;
+        border: 1px solid #e5e5e5;
+        border-radius: 3px;
+        font-size: 14px;
+        color: #757575;
+        display: inline-block;
+      }
+      .search {
+        position: relative;
+        margin-left: 15px;
+        padding-left: 15px;
+        &::before {
+          content: "";
+          width: 1px;
+          height: 24px;
+          background: #e5e5e5;
+          position: absolute;
+          left: 0;
+          top: 4px;
+        }
+      }
+      .auth {
+        margin-left: 20px;
+        height: 32px;
+        line-height: 32px;
+        color: #4f4f4f;
+        padding: 0 10px;
+        border-radius: 3px;
+        font-size: 16px;
+        span:first-child {
+          color: #bdbdbd;
+          margin-right: 2px;
+        }
+      }
+    }
+  }
+}
