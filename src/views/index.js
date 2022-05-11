@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
+import InfoGraphics from "../components/Infographics";
 import Navbar from "../components/navbar";
 import News2 from "../components/news2";
 import NewsByCate from "../components/newsbycate";
@@ -21,6 +22,7 @@ const Views = () => {
       <NewsByCate />
       <News2 />
       <Photo />
+      <InfoGraphics />
       <Footer />
     </>
   );

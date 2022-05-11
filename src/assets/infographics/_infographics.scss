@@ -1,0 +1,282 @@
+.info_graphics {
+  .col-left {
+    .box-category.has-border {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    .box-category {
+      width: 100%;
+      margin-bottom: 20px;
+      .title-box-category {
+        position: relative;
+        line-height: 23px;
+        margin-bottom: 20px;
+        color: #222;
+        font-weight: 700;
+        .inner-title {
+          position: relative;
+          display: inline-block;
+        }
+        .inner-title:before {
+          content: "";
+          width: 100%;
+          height: 1px;
+          background: #9f224e;
+          position: absolute;
+          left: 0;
+          bottom: -5px;
+        }
+      }
+      .has-border {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+    }
+    .content-box-category {
+      .thumb-art {
+        width: 98%;
+        img {
+          width: 100%;
+        }
+        .icon_thumb_videophoto {
+          width: 24px;
+          display: block;
+          height: 24px;
+          line-height: 24px;
+          text-align: center;
+          position: absolute;
+          background: rgba(0, 0, 0, 0.5);
+          border-radius: 3px;
+          left: 5px;
+          bottom: 5px;
+          font-size: 12px;
+          color: #fff;
+          font-weight: 700;
+          justify-content: center;
+          .ic {
+            align-self: center;
+            display: inline-block;
+            vertical-align: middle;
+            fill: #fff;
+            width: 14px;
+            height: 14px;
+          }
+        }
+      }
+      .item-news:nth-child(odd) {
+        padding-right: 10px;
+      }
+    }
+    .box-ebank-qt {
+      background: #f7f7f7;
+      border: 1px solid #e5e5e5;
+      padding: 15px;
+      .wrap-slide-bank-qt {
+        .swiper-wrapper {
+          display: flex;
+          flex-wrap: wrap;
+          article {
+            width: 50%;
+            display: flex;
+            padding-right: 20px;
+            margin-bottom: 10px;
+            h4 {
+              padding-left: 10px;
+            }
+          }
+        }
+      }
+    }
+    .box-xemnhieu {
+      .title-box-category {
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 4px;
+        color: #757575;
+        .inner-title:before {
+          content: "";
+          width: 100%;
+          height: 1px;
+          background: #9f224e;
+          position: absolute;
+          left: 0;
+          bottom: -5px;
+        }
+      }
+      .list-top-view {
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+        .item-news {
+          width: 50%;
+          display: flex;
+          position: relative;
+          padding-left: 45px;
+          padding-right: 15px;
+          padding-bottom: 15px;
+          margin-bottom: 15px;
+          width: 50%;
+          .number-top-view {
+            font-size: 48px;
+            color: #222;
+            font-weight: bold;
+            position: absolute;
+            top: -15px;
+            left: 0;
+            -webkit-font-feature-settings: "pnum" on, "lnum" on;
+            font-feature-settings: "pnum" on, "lnum" on;
+          }
+        }
+      }
+    }
+  }
+
+  .col-right {
+    .box-raovat-v2 {
+      border: 1px solid #e5e5e5;
+      .title-box-rv {
+        align-items: center;
+        height: 40px;
+        background: #f3f3f3;
+        padding: 0 15px;
+        .link-dt {
+          margin-left: auto;
+          color: #414141;
+          font-size: 15px;
+          font-weight: 500;
+          .arrow {
+            width: 10px;
+            height: 10px;
+            border: 1px solid #414141;
+            display: inline-block;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 5.5px;
+            font-size: 11px;
+            vertical-align: middle;
+          }
+        }
+      }
+      .ctn-box-rv {
+        background: #fff;
+        padding: 10px;
+      }
+      .item-news {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding: 10px;
+        background: #f7f7f7;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        .thumb-art {
+          border-radius: 5px;
+          width: 100%;
+          border: none;
+          overflow: hidden;
+          padding: 0 15px;
+          margin-bottom: 8px;
+          img {
+            width: 100%;
+          }
+        }
+        .title-news {
+          width: 100%;
+          font: 700 13px/17px arial;
+          color: #2d2d2d;
+          white-space: pre-wrap;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          height: 34px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin-top: 0;
+          padding-left: 0;
+        }
+        .meta-rv {
+          flex-direction: column;
+          .contact-btn {
+            color: #40a691;
+            font-size: 10px;
+            display: block;
+            padding: 4px 15px;
+            width: 100%;
+            border: 1px solid #40a691;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 10px;
+          }
+          .price-local {
+            color: #2d2d2d;
+            font-size: 14px;
+            display: block;
+            margin-bottom: 2px;
+          }
+          .meta-local {
+            font-size: 12px;
+            color: #8c8c8c;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.box-news-other-site {
+  margin-top: 20px !important;
+  padding-top: 20px !important;
+  .title-news {
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .description {
+    line-height: 140%;
+    font-size: 14px;
+    font-weight: 450;
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+.box-news-other-site:before {
+  content: "";
+  width: calc(100% - 30px);
+  height: 1px;
+  background: #e5e5e5;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+.inner-box-business {
+  margin: 20px auto !important;
+  background: #f7f7f7;
+  position: relative;
+
+  .title-box-category {
+    .inner-title {
+      position: relative;
+      display: inline-block;
+      font-size: 16px;
+    }
+    .inner-title:before {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background: #9f224e;
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+    }
+  }
+}
+
+.slider-box-business {
+  .item-news {
+    padding: 10px;
+    img {
+      width: 100%;
+    }
+  }
+}
