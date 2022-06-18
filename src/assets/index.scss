@@ -1,0 +1,63 @@
+@import "normalize.css";
+@import "./main/main";
+@import "./header/header";
+@import "./navbar/navbar";
+@import "./topstory/topstory";
+@import "./common/common";
+@import "./newsmain/newsmain";
+@import "./topic/topic";
+@import "./video/video";
+@import "./newsbycate/newsbycate";
+@import "./news2/news2";
+@import "./photo/photo";
+@import "./infographics/infographics";
+@import "./footer/footer";
+
+.section {
+  width: 100%;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrap-main-nav {
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.bb {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  line-height: 1.2;
+}

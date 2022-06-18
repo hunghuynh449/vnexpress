@@ -1,0 +1,27 @@
+.box-slide-topic {
+  height: 50px;
+  padding-top: 12px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  span {
+    margin-left: 10px;
+    span {
+      margin-right: 5px;
+    }
+  }
+  .txt-topic {
+    font-size: 14px;
+    color: #757575;
+    top: 15px;
+    left: 0;
+  }
+  .title-news {
+    font-size: 14px;
+    line-height: 160%;
+    a {
+      color: #9f224e;
+      text-decoration: underline;
+    }
+  }
+}
